@@ -1,0 +1,208 @@
+/* General style sheet for James Mackey's webpage */
+
+/*************************************************/
+/*************** Background Images ***************/
+/*************************************************/
+
+body {
+	font-family: sans-serif;
+}
+
+nav {
+	background-color: black;
+	width:100%;
+	height:49px;
+}
+
+#hero {
+	background-image: url(../img/backgrounds/bg.JPG);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	min-width: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#educationLead {
+	background-image: url(../img/backgrounds/cornell.jpg);
+	margin: 0px;
+}
+
+#workLead {
+	background-image: url(../img/backgrounds/office.jpg);
+	margin: 0px;
+}
+
+#projectsLead {
+	background-image: url(../img/backgrounds/code.PNG);
+	margin: 0px;
+}
+
+#interestsLead {
+	background-image: url(../img/backgrounds/interests.JPG);
+	margin: 0px;
+}
+
+#summary p {
+	font-size: 20px;
+	margin: 20px 30%;
+}
+
+#resume {
+	background-image: url(../img/backgrounds/resume.jpg);
+	margin:0px;
+}
+
+.lead {
+	background-attachment: fixed;
+	background-size: cover;
+	height: 250px;
+	border: black 1px;
+}
+
+/*************************************************/
+/****************** General Style ****************/
+/*************************************************/
+
+.whiteBack {
+	padding: 30px;
+	background-color: white;
+}
+
+.darkBack {
+	padding: 30px;
+	background-color: #363636;
+}
+
+.extra_padding {
+	padding: 30px;
+}
+
+.shift {
+	top:105px;
+}
+
+.shiftLess {
+	top:70px;
+}
+
+.shiftMore {
+	top: 80px;
+	position:relative;
+}
+
+.shiftLeast {
+	top:9px;
+	position:relative;
+}
+
+/*************************************************/
+/********************** Text *********************/
+/*************************************************/
+
+/* Hero pg. caption */
+h1 {
+	font-size: 45px;
+	margin-top: 0px;
+	position:relative;
+}
+
+/* Logo titles */
+h2 {
+	font-size:35px;
+	font-weight: bold;
+}
+
+/* Nav bar */
+h3 {
+	font-size:31px;
+	margin: 0 10px;
+}
+
+button {
+	background: none;
+	border: none; 
+}
+
+/* Dates */
+h5 {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* Footer h6*/
+h6 {
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+/* General text */
+p {
+	font-size:18px;
+}
+
+li {
+	font-size: 18px;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+/*************************************************/
+/**************** Icons and Images ***************/
+/*************************************************/
+
+.mePic {
+	border: 4px solid white;
+	width: 160px;
+	margin: 150px auto 0px;
+	display: block;
+}
+
+.icon {
+	height:100px;
+	width: auto;
+	margin: auto;	
+}
+
+.logo {
+	height:180px;
+	width: 180px;
+	display: block;
+	overflow: hidden;
+	margin: auto;
+}
+
+.linkIcon {
+	height:30px;
+	width: auto;
+	margin: auto;
+}
+
+.blackBorder {
+	border: 4px solid black;
+}
+
+.whiteBorder {
+	border: 4px solid white;
+}
+
+.ten {
+	height: 12px;
+	width:auto;
+}
+
+#resumePdf:hover {
+	opacity:0.7;
+}
+
+
+
+
+
